@@ -14,4 +14,4 @@ jobs:
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
       - name:  Get Docker version
-        run : echo docker ps -a
+      s
